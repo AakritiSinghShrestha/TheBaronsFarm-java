@@ -1,9 +1,9 @@
-package hbcu.stay.ready.baronsfarm.concrete;
+package hbcu.stay.ready.baronsfarm.Abstract;
 
 import hbcu.stay.ready.baronsfarm.Interface.Eater;
 import hbcu.stay.ready.baronsfarm.Interface.NoiseMaker;
 
-public class Person implements NoiseMaker, Eater {
+public abstract class Person implements NoiseMaker, Eater {
     private String name;
 
     public Person(String name) {

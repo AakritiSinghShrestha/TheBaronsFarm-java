@@ -1,4 +1,6 @@
 package hbcu.stay.ready.baronsfarm.concrete;
 
-public class Crop {
+import hbcu.stay.ready.baronsfarm.Interface.Produce;
+
+public class Crop implements Produce {
 }
